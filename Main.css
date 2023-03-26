@@ -1,0 +1,89 @@
+:root {
+    --background: #000;
+    --brandBackground:  #1d9bf020;
+    --brandcolor: #d9d9d9;
+    --itemBackground: #d9d9d920;
+    --colorPrimary: #d9d9d9;
+    --colorSecondary: #6e767d;
+    --colorWhite: #fff;
+    --tweetBtnBg: #5943d6;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #1DA1F2;
+	padding: 10px;
+	color: #fff;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	background-color: #F5F8FA;
+	padding: 10px;
+	font-size: 14px;
+}
+
+nav a {
+	margin-right: 20px;
+	color: #1DA1F2;
+	text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+#tweets {
+	flex: 2;
+	padding: 20px;
+	border-right: 1px solid #E1E8ED;
+}
+
+#tweets .tweet {
+	margin-bottom: 20px;
+}
+
+#tweets .tweet .user-info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#tweets .tweet .user-info img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+#tweets .tweet .tweet-content {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+aside {
+	flex: 1;
+	padding: 20px;
+	font-size: 14px;
+}
+
+footer {
+	background-color: #F5F8FA;
+	padding: 10px;
+	font-size: 12px;
+	text-align: center;
+	color: #657786;
+}
